@@ -1,0 +1,39 @@
+.header {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 654px;
+	height: 108px;
+	background: #457679;
+	box-shadow: 9px 10px 14px -9px #000000;
+}
+
+.time{
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 18px;
+	color: white;
+}
+.pers-private {
+	font-size: 15px;
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+a.pers-info {
+	color: white;
+}
+
+.hello-user{
+	color: white;
+}
+
+.hello-user span{
+	margin-left: 5px;
+}
+
+.logo {
+	position: absolute;
+	top: 3px;
+	right: 10px;
+}

@@ -1,0 +1,140 @@
+div.chat{
+	position: absolute;
+	top: 119px;
+	right: 0;
+	width: 472px;
+	height: 283px;
+	background: #fff;
+}
+.chat-main a, .chat-with a, .chat-with1 a, ul.format-message a{
+	text-decoration:none;
+	color:black;
+}
+
+
+
+ul.chat-all{
+	overflow:hidden;
+	margin-left: 4px;
+}
+
+ul.chat-all a{
+	display: block;
+	float:left;
+	border-top:solid 1px #cecbcb;
+	border-left:solid 1px #cecbcb;
+	line-height: 25px;
+	text-align: center;
+	padding: 0 10px;
+}
+
+li.active a{
+	background: #457679;
+	color: white;
+}
+
+ul.chat-all a:hover {
+	background: #457679;
+	color: white;
+}
+
+
+ul.chat-all li:hover a.close{
+	background: #457679;
+	color: white;
+}
+
+.chat-with a.close, .chat-with1 a.close {
+	padding: 0 2px;
+	border-left:none;
+}
+
+.chat-with1 a.close{
+	border-right:solid 1px #cecbcb;
+}
+
+ul.chat-all li:hover a.close:hover{
+	background: red;
+	font-weight: bold;
+}
+
+.chat-online-wr{
+	position:relative;
+	width: 470px;
+	height: 264px;
+	background: #fff;
+	border:solid 1px #cecbcb;
+}
+ 
+div.chat-online-all{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 470px;
+	height: 260px;
+	overflow: auto;
+}
+div.chat-online{
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 442px;
+	height: 259px;	
+}
+
+.date_hidden{
+	display: none;
+}
+
+.message_pull{
+	display:inline-block;
+	background:#f2f5f4;
+	border-radius:5px;
+	padding:10px;
+	margin-left:5px;
+	width:250px;
+	text-align:left;
+	margin-top:10px;
+	word-wrap: break-word;
+}
+
+.user_pull{
+	display: inline-block;
+	width: 78px;
+}
+
+.date_pull{
+	display:inline-block;
+	font-weight: 200;
+	font-size:11px;
+	text-decoration:underline;
+	margin-left:5px;
+}
+
+li.chat-message-all{
+	display:block;
+	margin-top:10px;
+	text-align:right;
+	margin-right:10px;
+	
+}
+
+span.chat_message{
+	display:inline-block;
+	background:#dddddd;
+	border-radius:5px;
+	padding:10px;
+	margin-right:5px;
+	width:250px;
+	text-align:left;
+	word-wrap:break-word;
+	
+}
+
+
+span.date{
+	display:inline-block;
+	font-weight: 200;
+	font-size:11px;
+	text-decoration:underline;
+}

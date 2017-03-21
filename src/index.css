@@ -1,0 +1,8 @@
+html, body, img, form,  input, button, textarea, h1, h2, h3, a, p, ul, li  {
+	margin:0;
+	padding:0;
+}
+
+ul, li {
+	list-style-type:none;
+}
